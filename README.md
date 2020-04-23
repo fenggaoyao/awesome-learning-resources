@@ -20,13 +20,13 @@
 - [目录](#目录)
 - [算法](#算法)
 - [计算机基础](#计算机基础)
+- [软件设计思想和编程语言](#软件设计思想和编程语言)
 - [编译原理](#编译原理)
 - [计算机网络](#计算机网络)
 - [数据库](#数据库)
 - [操作系统理论](#操作系统理论)
 - [操作系统实践（Linux 运维）](#操作系统实践linux运维)
 - [UNIX 编程](#unix编程)
-- [软件设计和编程思想](#软件设计和编程思想)
 - [工程化](#工程化)
   - [GIT](#git)
   - [软件工程](#软件工程)
@@ -48,7 +48,6 @@
   - [线性代数](#线性代数)
   - [概率与统计](#概率与统计)
 - [杂项](#杂项)
-  - [正则表达式](#正则表达式)
   - [清单](#清单)
   - [公开课](#公开课)
 
@@ -71,17 +70,36 @@
 <font size="2" style="margin-left:10px;">[回到目录 ↑](#目录)</font>
 
 - [深入理解计算机系统(CSAPP)](https://book.douban.com/subject/26912767/) 神书，要被捧上天了（非贬义）。 [勘误表](http://yiligong.org/csapp3e/)
-- [计算机程序的构造和解释(SICP)](https://book.douban.com/subject/1148282/) 神书，可以在豆瓣和[知乎](https://www.zhihu.com/question/50408698)查看相关评价。
-  - [官方 HTML 版](https://mitpress.mit.edu/sicp/)、[精校版](https://sicpebook.wordpress.com/)、[习题答案](http://community.schemewiki.org/?sicp-solutions)
-  - [SICP 公开课中文化项目](https://github.com/DeathKing/Learning-SICP)有 SICP 课程的中英文资源。
-  - 语言&编辑器：做练习的时候推荐使用[Racket](https://racket-lang.org/)并安装[SICP 扩展包](https://docs.racket-lang.org/sicp-manual/)。Racket 的 IDE 使用体验比 MIT-Scheme 好很多，并且 Racket 本身也是一门非常年轻优秀的 Scheme 方言。
-  - [伯克利 cs61a 课程](https://cs61a.org/)用**Python**来教 SICP，在课程官网可以找到很多有用的资源。[composingprograms](http://composingprograms.com/)是一位伯克利教授做的教学网站，用**Python**来教 SICP，作为 cs61a 的教科书使用。
 - [编码 隐匿在计算机软硬件背后的语言](https://book.douban.com/subject/4822685/) 通俗易懂，面向入门者，近乎科普。评价很高，经常被推荐。
 - [程序员的自我修养](https://book.douban.com/subject/3652388/) 讲解了一个程序在其生命周期里会碰到的种种事物。国人写的书。经常被推荐。
 - 计算机体系结构：[计算机组成与设计 硬件/软件接口](https://book.douban.com/subject/26604008/)，[计算机体系结构 量化研究方法](https://book.douban.com/subject/7006537/)这两本书作者是一样的，但内容不一样。只要是推荐这方面的书的问题，少不了这两本。我上计算机组成原理课的时候用的就是前面那本书，虽然内容听起来很可怕，但是英文版读起来真的很好懂（只要你英语过关）。
   - [伯克利 cs61c 课程](http://www-inst.eecs.berkeley.edu/~cs61c/su18/)是以这本书为教材的，在课程官网可以找到学习资源。
     > 参考这两个知乎问题：[有哪些不错的介绍计算机体系结构的书籍？](https://www.zhihu.com/question/19897585)，[计算机体系结构这门课的主要内容是什么？ 如何自学？](https://www.zhihu.com/question/37330125)
-- [Concepts, Techniques, and Models of Computer Programming](https://en.wikipedia.org/wiki/Concepts,_Techniques,_and_Models_of_Computer_Programming) 被认为是 SICP 近代继任者，覆盖面稍广于 SICP，但知名度远不及 SICP。带读者领略变成背后的概念和思想。[官方网站](https://www.info.ucl.ac.be/~pvr/book.html)
+
+# 软件设计思想和编程语言
+
+<font size="2" style="margin-left:10px;">[回到目录 ↑](#目录)</font>
+
+- [计算机程序的构造和解释(SICP)](https://book.douban.com/subject/1148282/) 神书，Scheme 三剑客之一。修炼编程内功，理解程序的本质。务必完成书中的练习。
+  - [官方 HTML 版](https://mitpress.mit.edu/sicp/)、[精校版](https://sicpebook.wordpress.com/)、[习题答案](http://community.schemewiki.org/?sicp-solutions)
+  - [SICP 公开课中文化项目](https://github.com/DeathKing/Learning-SICP)有 SICP 课程的中英文资源。
+  - 语言&编辑器：做练习的时候推荐使用[Racket](https://racket-lang.org/)并安装[SICP 扩展包](https://docs.racket-lang.org/sicp-manual/)。Racket 的 IDE 使用体验比 MIT-Scheme 好很多，并且 Racket 本身也是一门非常年轻优秀的 Scheme 方言。
+  - [伯克利 cs61a 课程](https://cs61a.org/)用**Python**来教 SICP，在课程官网可以找到很多有用的资源。[composingprograms](http://composingprograms.com/)是一位伯克利教授做的教学网站，用**Python**来教 SICP，作为 cs61a 的教科书使用。
+  - 学习 Lisp 之前可以看看这两篇经典的博文：[Lisp 的本质(The Nature of Lisp)](https://www.cnblogs.com/Leap-abead/articles/762180.html)、[Lisp 的永恒之道](https://www.cnblogs.com/weidagang2046/archive/2012/06/03/tao_of_lisp.html)。让你提前对 Lisp 的魔法有所了解。
+- [How to Design Programs(HTDP)](https://book.douban.com/subject/1787103/) 正如它的名字所说，它教你如何有条理地设计计算机程序。这本书使用函数式编程语言 Racket （一门非常年轻优秀的编程语言）来讲解，但是它不是一本教你编程语言的书，它所包含的知识是普适的。[官网免费阅读](https://www.htdp.org/)。
+  - 这本书是面向编程入门者的角度来讲解的，所以对于有编程基础的人来说有一些啰嗦，建议跳读。
+- [Essentials of Programming Languages(EOPL)](https://book.douban.com/subject/3136252/) Scheme 三剑客之一，助你看透编程语言的本质。
+- [Programming Language: Application and Interpretation(PLAI)](https://book.douban.com/subject/11628134/) Scheme 三剑客之一，助你看透编程语言的本质。
+- [Concepts, Techniques, and Models of Computer Programming](https://en.wikipedia.org/wiki/Concepts,_Techniques,_and_Models_of_Computer_Programming) 被认为是 SICP 近代继任者，覆盖面稍广于 SICP，但知名度远不及 SICP。带读者领略编程背后的概念和思想。[官方网站](https://www.info.ucl.ac.be/~pvr/book.html)
+- [Software Foundations](https://book.douban.com/subject/25712292/) 编程语言理论中的圣经。
+
+下面的资源可能更适合拥有一定编程经验以后再阅读，结合自己的编程经验才能有深刻的理解。
+
+- [设计模式 可复用面向对象软件的基础](https://book.douban.com/subject/1099305/) 设计模式，无人不知吧。
+- [冒号课堂 编程范式与 OOP 思想](https://book.douban.com/subject/4031906/) 虽然书名起得不好，但是不妨碍它是一本好书，对编程范式和软件设计思想的阐述非常深刻。相对容易理解。
+- [Stanford CS107 Programming Paradigms(编程范式)](http://open.163.com/special/opencourse/paradigms.html)
+- [Clean Architecture：软件架构与设计匠艺](https://book.douban.com/subject/26915970/)
+- [领域驱动设计:软件核心复杂性应对之道](https://book.douban.com/subject/5344973/) （业务）编程的本质是对真实世界的抽象和建模，本书帮助读者理解业务与代码之间的联系，以及如何设计业务代码。
 
 # 编译原理
 
@@ -113,7 +131,7 @@
 
 <font size="2" style="margin-left:10px;">[回到目录 ↑](#目录)</font>
 
-- [Operating Systems: Three Easy Pieces](https://book.douban.com/subject/19973015/) 评价很高的操作系统书。可以在[官网](http://pages.cs.wisc.edu/~remzi/OSTEP/)免费阅读。官网最下面也列举了一些操作系统学习资源。
+- [Operating Systems: Three Easy Pieces](https://book.douban.com/subject/19973015/) 评价很高的操作系统书。可以在[官网](http://pages.cs.wisc.edu/~remzi/OSTEP/)免费阅读。官网最下面也列举了一些操作系统学习资源。[中文版](https://book.douban.com/subject/33463930/)。
 - [Operating Systems: Principles and Practice](http://recursivebooks.com/) 多个知名大学将其作为教科书。
   > 相关知乎回答：[有没有好的操作系统的书？ - 知乎](https://www.zhihu.com/question/31863104)
 - [6.828](https://pdos.csail.mit.edu/6.828/2017/schedule.html) MIT 的操作系统课程，经常被推荐。其中的 Xv6 项目可以让学习者动手实践，非常难得。
@@ -136,16 +154,6 @@
 
 - [UNIX 环境高级编程](https://book.douban.com/subject/1788421/)
 - [UNIX 编程艺术](https://book.douban.com/subject/5387401/)
-
-# 软件设计和编程思想
-
-<font size="2" style="margin-left:10px;">[回到目录 ↑](#目录)</font>
-
-- [设计模式 可复用面向对象软件的基础](https://book.douban.com/subject/1099305/)
-- [冒号课堂 编程范式与 OOP 思想](https://book.douban.com/subject/4031906/) 虽然书名起得不好，但是不妨碍它是一本好书，对编程范式和软件设计思想的阐述非常深刻。因为种种原因（书名、读者对本土技术书籍的刻板印象），它的纸质版已经[绝版了](https://www.zhihu.com/question/23636938/answer/29238479)，不过在当当和亚马逊都有电子书卖。
-- [Stanford CS107 Programming Paradigms(编程范式)](http://open.163.com/special/opencourse/paradigms.html)
-- [Clean Architecture：软件架构与设计匠艺](https://book.douban.com/subject/26915970/)
-- [领域驱动设计:软件核心复杂性应对之道](https://book.douban.com/subject/5344973/) （业务）编程的本质是对真实世界的抽象和建模，本书帮助读者理解业务与代码之间的联系，以及如何设计业务代码。
 
 # 工程化
 
@@ -171,8 +179,10 @@
 <font size="2" style="margin-left:10px;">[回到目录 ↑](#目录)</font>
 
 - [黑客与画家](https://book.douban.com/subject/6021440/) 被无数人推荐。
+- [哥德尔、艾舍尔、巴赫: 集异璧之大成](https://book.douban.com/subject/1291204/) 视角跨越多个领域的奇书。
+- [人类简史](https://book.douban.com/subject/25985021/)
 - [暗时间](https://book.douban.com/subject/6709809/) 作者刘未鹏，他的[博客](http://mindhacks.cn/)也值得一读。从文章都能感觉到作者是一个善于思考的人，文章经常能给人醍醐灌顶的感觉。
-- [快捷键大全](http://mykeys.sinaapp.com/index.php) 用好手上的工具也是很重要的。
+- [经济学原理](https://book.douban.com/subject/1028842/) 权威的经济学科普书籍。不要成为一个只会埋头干活的码农。
 
 # C/C++
 
@@ -192,26 +202,27 @@
 - [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/) google 搜索 Python guide，前四位都是它或它的中文翻译。GitHub 仓库的 Star 数量很多。定位是"Python best practices guidebook"。
 - [Fluent Python](https://book.douban.com/subject/26278021/) 豆瓣评分最高的 Python 书籍。比较适合进阶。
 
+# Rust
+
+- [The Rust Programming Language](https://doc.rust-lang.org/book/index.html) Rust 官方推荐教材。详尽涵盖了 Rust 的理论基础。最好结合下面实践资料一起学习。
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html) Rust 官方出品的在线练习网站，通过练习来巩固这门语言的知识点。
+- [rustlings](https://github.com/rust-lang/rustlings) Rust 官方出品的小练习，帮助你熟悉 Rust 编程，包括代码读、写，以及 Rust 编译器的使用，实践性教程。
+
 # 前端
 
 <font size="2" style="margin-left:10px;">[回到目录 ↑](#目录)</font>
 
 ## JavaScript 开发进阶
 
-- [Speaking JavaScript](http://speakingjs.com/es5/index.html) 相信很多 js 开发者都看过这个作者[Dr. Axel Rauschmayer](http://dr-axel.de/)的博客。这本书具有完整的 ECMAScript 知识体系，**它专注于[ECMAScript 这门语言](https://github.com/tc39/ecma262)，并不涉及[Web API](https://developer.mozilla.org/en-US/docs/Web/API)**。ES6 的内容被专门收集到另一本书 Exploring ES6。
+- [JavaScript for impatient programmers](https://exploringjs.com/impatient-js/toc.html) **它专注于[ECMAScript 这门语言](https://github.com/tc39/ecma262)，并不涉及[Web API](https://developer.mozilla.org/en-US/docs/Web/API)**。它用非常精炼的语言构建了现代 JavaScript 的知识体系（涵盖到 ES2019）。作者[Dr. Axel Rauschmayer](http://dr-axel.de/)的博客也值得关注。
 - [JavaScript 高级程序设计](https://book.douban.com/subject/10546125/) 兼顾了语言和 Web API。第三版有点老了，只涵盖 ES5，不过依旧是经典。[2019 年 6 月会出第四版](http://www.wrox.com/WileyCDA/WroxTitle/Professional-JavaScript-for-Web-Developers-4th-Edition.productCd-1119366445.html)。
-- [JavaScript 标准参考教程 - 阮一峰](https://javascript.ruanyifeng.com/) 兼顾了语言和 Web API，内容很新，可以看作是高程的持续更新版。前端面试会问的**基础知识点**基本都可以在这里找到。不过有一些讲解得不是非常详尽，追求完美的读者，可以在阅读的过程中，去 MDN 或《JavaScript 高级程序设计》找到相同的知识点来阅读。ES6 的内容被专门收集到另一本书 ECMAScript 6 入门。
-- [JavaScript. The Core: 2nd Edition](http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition/) 详细讲解了 Prototype、Execution context、lexical environment、Closure 等高级概念。内容非常新，基于 ES6。
+- [The Modern JavaScript Tutorial](https://javascript.info/) 现代 JavaScript 开发教程。包含了 ECMAScript 语言和重要的 Web API。个人认为它的主要价值在于对重要 Web API 的分类整理与阐释。
+- [JavaScript. The Core: 2nd Edition](http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition/) 从语言标准的角度讲解了 Prototype、Execution context、lexical environment、Closure 等高级概念，适合编程语言理论爱好者。内容基于 ES6。
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS#you-dont-know-js-book-series) 大部分 js 开发者应该都听说过，开源神书，进阶必读。
 - [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS)。将函数式编程思想应用在 JavaScript 开发中。虽然 JavaScript 很难做到“最纯正”的函数式编程，但是本着实用主义的心态，学习多一种编程范式，对于开发者来说是十分有益的，更何况很多前端框架都借鉴了函数式编程思想。
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)。同上一本，这两本书应该是 JavaScript 函数式编程书里的首选了。
 - [Must-watch videos about javascript](https://github.com/bolshchikov/js-must-watch) JavaScript 视频推荐列表，Star 数量很多。不过内容太多，建议选择感兴趣/重要的来观看。太旧的视频也需要斟酌一下。
 - [JSConf](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA) JavaScript 技术会议。同样内容太多，建议选择感兴趣/重要的来观看。太旧的视频也需要斟酌一下。可以[按照热度排序](https://www.youtube.com/user/jsconfeu/videos?view=0&flow=grid&sort=p)。
-
-## ES6
-
-- [Exploring ES6](http://exploringjs.com/es6.html) 同样是[Dr. Axel Rauschmayer](http://dr-axel.de/)的书，可以看作是 Speaking JavaScript 的 ES6 增量更新包。
-- [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/) 通过例子来学习 ES6，可以看作是 JavaScript 标准参考教程的 ES6 增量更新包。中文看起来比较亲切。
 
 ## v8
 
@@ -241,13 +252,14 @@
   - [Performance - Google Web Fundamentals](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)
   - [Best Practices for Speeding Up Your Web Site - yahoo](https://developer.yahoo.com/performance/rules.html)
   - [14 Rules for Faster-Loading Web Sites](http://stevesouders.com/hpws/rules.php)
-  - [2018 前端性能优化清单](https://juejin.im/post/5a966bd16fb9a0635172a50a)
+  - [2020 前端性能优化清单](https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/)
   - [CSS Animation 性能优化](https://www.w3cplus.com/animation/animation-performance.html)
 - [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook) 提供了前端常见面试问题的答案。它只是面试题的集合，而不是系统化的知识总结，因此只适用于准备面试和查漏补缺。
 - [Front-end development handbook](https://github.com/FrontendMasters/front-end-handbook-2018) 对于前端的基础知识点，提供了很多优质的资源链接。
 - [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)，或者[它的中文翻译版](https://github.com/starkwang/the-super-tiny-compiler-cn)。 Node、Typescript、Babel 以及**大部分现代前端框架**都和编译器有着密切的关系，要成为一流的前端必须了解编译器的知识。更何况编译器的知识在各个语言都是基本通用的。
   > [原作者](https://github.com/jamiebuilds)、[翻译者](https://github.com/starkwang)、[推荐者](https://www.zhihu.com/question/49043143/answer/113970082)都是大牛。。。
 - [freeCodeCamp](https://learn.freecodecamp.org/) 开源、非盈利的在线学习网站。它的主要内容是前端基础知识。这个网站的最大特点是在线评测，这种即时反馈对于学习者来说是非常有帮助的。该仓库的 Star 数量在 github 上[排名第一](https://gitstar-ranking.com/repositories)。
+- [Web 安全](https://web.stanford.edu/class/cs253/) 斯坦福大学的公开课。内容非常贴近实际的 Web 应用。
 
 ## Angular
 
@@ -354,10 +366,8 @@
 
 <font size="2" style="margin-left:10px;">[回到目录 ↑](#目录)</font>
 
-## 正则表达式
-
 - [RegExr](https://regexr.com/) 学习、测试正则表达式的神器。
-- [Regexper](https://regexper.com/) 将正则表达式可视化，与 RegExr 互补。
+- [快捷键大全](http://mykeys.sinaapp.com/index.php) 用好手上的工具也是很重要的。
 
 ## 清单
 
